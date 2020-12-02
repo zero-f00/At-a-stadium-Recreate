@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="168" id="KGk-i7-Jjw" customClass="addMatchDataTableViewCell" customModule="At_a_stadium" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="168"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="351" height="168"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="253" text="明治安田生命J1リーグ 12節" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AA8-MI-WOq">
+                        <rect key="frame" x="5" y="10" width="341" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="北海道コンサドーレ札幌" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njC-cp-Z8w">
+                        <rect key="frame" x="135" y="66.5" width="186" height="43"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="VS." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JXM-V8-aUB">
+                        <rect key="frame" x="135" y="117.5" width="187.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" text="鹿島アントラーズ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jVS-l0-rgC">
+                        <rect key="frame" x="135" y="142.5" width="186" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SqQ-Si-Hj9">
+                        <rect key="frame" x="25" y="41.5" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="SqQ-Si-Hj9" secondAttribute="height" multiplier="1:1" id="EUC-ba-sMI"/>
+                            <constraint firstAttribute="height" constant="100" id="OfD-r1-uV8" userLabel="height = 100"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="KICKOFF - 2020/6/20(土) 19:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nmi-BO-BXM">
+                        <rect key="frame" x="135" y="41.5" width="206" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Nmi-BO-BXM" firstAttribute="leading" secondItem="SqQ-Si-Hj9" secondAttribute="trailing" constant="10" id="3OF-J5-sfV"/>
+                    <constraint firstItem="SqQ-Si-Hj9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="92r-gz-mbb"/>
+                    <constraint firstItem="SqQ-Si-Hj9" firstAttribute="top" secondItem="AA8-MI-WOq" secondAttribute="bottom" constant="10" id="GcR-LS-KUY"/>
+                    <constraint firstItem="njC-cp-Z8w" firstAttribute="top" secondItem="Nmi-BO-BXM" secondAttribute="bottom" constant="8" id="H5I-y5-mm0"/>
+                    <constraint firstItem="AA8-MI-WOq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="Igr-gs-7mB"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="njC-cp-Z8w" secondAttribute="trailing" constant="10" id="LXm-v3-xlg"/>
+                    <constraint firstItem="njC-cp-Z8w" firstAttribute="leading" secondItem="SqQ-Si-Hj9" secondAttribute="trailing" constant="10" id="PRp-qH-vk7"/>
+                    <constraint firstItem="jVS-l0-rgC" firstAttribute="leading" secondItem="SqQ-Si-Hj9" secondAttribute="trailing" constant="10" id="Rk8-ZF-4ab"/>
+                    <constraint firstAttribute="trailing" secondItem="Nmi-BO-BXM" secondAttribute="trailing" constant="10" id="TLA-Av-wBq"/>
+                    <constraint firstItem="Nmi-BO-BXM" firstAttribute="top" secondItem="AA8-MI-WOq" secondAttribute="bottom" constant="10" id="U8p-HU-g8e"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="JXM-V8-aUB" secondAttribute="trailing" constant="8.5" id="e0k-hU-5hu"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="jVS-l0-rgC" secondAttribute="trailing" constant="10" id="hh1-ut-yXy"/>
+                    <constraint firstItem="AA8-MI-WOq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="ifY-1v-LfL"/>
+                    <constraint firstItem="JXM-V8-aUB" firstAttribute="top" secondItem="njC-cp-Z8w" secondAttribute="bottom" constant="8" id="qQl-ua-gtg"/>
+                    <constraint firstItem="JXM-V8-aUB" firstAttribute="leading" secondItem="SqQ-Si-Hj9" secondAttribute="trailing" constant="10" id="tev-bC-Zpf"/>
+                    <constraint firstItem="jVS-l0-rgC" firstAttribute="top" secondItem="JXM-V8-aUB" secondAttribute="bottom" constant="8" id="uuo-fW-L1I"/>
+                    <constraint firstAttribute="trailing" secondItem="AA8-MI-WOq" secondAttribute="trailing" constant="5" id="zjx-Si-bIS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="awayTeamLabel" destination="jVS-l0-rgC" id="6ty-Rh-axW"/>
+                <outlet property="categorySectionLabel" destination="AA8-MI-WOq" id="wqe-SD-8bi"/>
+                <outlet property="dateLabel" destination="Nmi-BO-BXM" id="gD3-4c-zHX"/>
+                <outlet property="homeTeamLabel" destination="njC-cp-Z8w" id="XSt-LJ-gJu"/>
+                <outlet property="stadiumImageView" destination="SqQ-Si-Hj9" id="Zal-uy-0ra"/>
+            </connections>
+            <point key="canvasLocation" x="160.1449275362319" y="-55.580357142857139"/>
+        </tableViewCell>
+    </objects>
+</document>

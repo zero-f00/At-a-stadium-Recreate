@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="261" id="KGk-i7-Jjw" customClass="RelatedHeaderTableViewCell" customModule="At_a_stadium" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="261"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="345" height="261"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="明治安田生命J1リーグ 第2節" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKg-C0-djD">
+                        <rect key="frame" x="5" y="10" width="335" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="北海道コンサドーレ札幌" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSN-Mw-Wff">
+                        <rect key="frame" x="5" y="44" width="335" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="252" text="鹿島アントラーズ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXk-Gc-geD">
+                        <rect key="frame" x="25" y="154" width="295" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Stadium - 札幌ドーム" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVu-J4-PcN">
+                        <rect key="frame" x="110" y="194.5" width="205" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="KICKOFF - 2020/6/20（土）19:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAz-RP-b0o">
+                        <rect key="frame" x="5" y="235" width="335" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VS." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdR-8w-UMC">
+                        <rect key="frame" x="25" y="80" width="295" height="59"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="srv-HW-SUo">
+                        <rect key="frame" x="24" y="115" width="70" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="srv-HW-SUo" secondAttribute="height" multiplier="1:1" id="eDi-dP-Oas"/>
+                            <constraint firstAttribute="height" constant="70" id="z4i-Y4-sKE"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="pdR-8w-UMC" secondAttribute="trailing" constant="5" id="06c-4r-g1i"/>
+                    <constraint firstItem="pdR-8w-UMC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="5" id="0e2-K7-ym8"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="dVu-J4-PcN" secondAttribute="trailing" constant="10" id="0lr-4n-JAA"/>
+                    <constraint firstAttribute="bottom" secondItem="RAz-RP-b0o" secondAttribute="bottom" constant="5" id="1Yb-j7-Ucc"/>
+                    <constraint firstItem="dVu-J4-PcN" firstAttribute="leading" secondItem="srv-HW-SUo" secondAttribute="trailing" constant="16" id="6pc-jc-olx"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="pdR-8w-UMC" secondAttribute="trailing" constant="5" id="88Y-tk-xFj"/>
+                    <constraint firstItem="srv-HW-SUo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="4" id="96l-iq-MjZ"/>
+                    <constraint firstItem="pdR-8w-UMC" firstAttribute="top" secondItem="hSN-Mw-Wff" secondAttribute="bottom" constant="15" id="9TK-Wj-sfo"/>
+                    <constraint firstItem="pdR-8w-UMC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="5" id="GTw-x9-ukN"/>
+                    <constraint firstItem="dVu-J4-PcN" firstAttribute="leading" secondItem="srv-HW-SUo" secondAttribute="trailing" constant="16" id="HQ0-Sw-pRV"/>
+                    <constraint firstAttribute="trailing" secondItem="gKg-C0-djD" secondAttribute="trailing" constant="5" id="JHP-aE-4sQ"/>
+                    <constraint firstItem="gKg-C0-djD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="LZO-Wu-y65"/>
+                    <constraint firstItem="gKg-C0-djD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Mih-Mz-3rb"/>
+                    <constraint firstAttribute="trailing" secondItem="RAz-RP-b0o" secondAttribute="trailing" constant="5" id="SSP-mW-rjt"/>
+                    <constraint firstItem="hSN-Mw-Wff" firstAttribute="top" secondItem="gKg-C0-djD" secondAttribute="bottom" constant="13" id="T3j-sz-C28"/>
+                    <constraint firstItem="RAz-RP-b0o" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="VyM-aU-TBj"/>
+                    <constraint firstItem="nXk-Gc-geD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="5" id="X6h-6l-cJh"/>
+                    <constraint firstItem="srv-HW-SUo" firstAttribute="top" secondItem="nXk-Gc-geD" secondAttribute="bottom" constant="-59.5" id="XLf-ly-DxK"/>
+                    <constraint firstItem="RAz-RP-b0o" firstAttribute="top" secondItem="dVu-J4-PcN" secondAttribute="bottom" constant="20" id="crd-W6-BAu"/>
+                    <constraint firstAttribute="trailing" secondItem="hSN-Mw-Wff" secondAttribute="trailing" constant="5" id="dsE-ha-Cgs"/>
+                    <constraint firstItem="nXk-Gc-geD" firstAttribute="top" secondItem="pdR-8w-UMC" secondAttribute="bottom" constant="15" id="eaS-Lr-Adz"/>
+                    <constraint firstItem="hSN-Mw-Wff" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="h5c-BJ-DtK"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="pdR-8w-UMC" secondAttribute="trailing" constant="5" id="sm2-Tl-uc3"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="nXk-Gc-geD" secondAttribute="trailing" constant="5" id="wGs-qX-zbO"/>
+                    <constraint firstItem="dVu-J4-PcN" firstAttribute="top" secondItem="nXk-Gc-geD" secondAttribute="bottom" constant="20" id="yAR-O6-yDZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="relatedAwayTeamLabel" destination="nXk-Gc-geD" id="FdW-Mq-2ah"/>
+                <outlet property="relatedCategorySectionLabel" destination="gKg-C0-djD" id="gsY-vB-YiW"/>
+                <outlet property="relatedDateLabel" destination="RAz-RP-b0o" id="ZMj-Yy-3gG"/>
+                <outlet property="relatedHomeTeamLabel" destination="hSN-Mw-Wff" id="Fwr-DL-dUn"/>
+                <outlet property="relatedStadiumImageView" destination="srv-HW-SUo" id="b38-nd-5wA"/>
+                <outlet property="relatedStadiumLabel" destination="dVu-J4-PcN" id="G3j-LV-Tgo"/>
+            </connections>
+            <point key="canvasLocation" x="21.014492753623191" y="250.11160714285714"/>
+        </tableViewCell>
+    </objects>
+</document>
